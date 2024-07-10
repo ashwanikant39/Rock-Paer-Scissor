@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="choices">
+      <div class="choice" id="rock">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3562/3562093.png"
+          alt="Rock"
+        />
+      </div>
+
+      <div class="choice" id="paper">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/12355/12355903.png"
+          alt="Paper"
+        />
+      </div>
+      <div class="choice" id="scissor">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/9534/9534501.png"
+          alt="Scissor"
+        />
+      </div>
+    </div>
+
+    <!-- RESULTS -->
+    <div class="results">
+      <div class="chosen">
+        <div>You choose: <span id="userChoice">Choose an option</span></div>
+        <div>
+          Comouter choose: <span id="compChoice">Let computer choose</span>
+        </div>
+        <div>Result: <span id="win"></span></div>
+      </div>
+
+      <div class="score">
+        <div>Your Score: <span id="userScore">0</span></div>
+        <div>Computer Score: <span id="compScore">0</span></div>
+        <div>Draw Games: <span id="drawScore">0</span></div>
+      </div>
+    </div>
+
+    
+    <div class="btn">
+      <button>Restart </button>
+
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
